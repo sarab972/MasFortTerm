@@ -1,0 +1,49 @@
+/* Stiluri generale */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #0d47a1; /* Albastru închis */
+color: white;
+}
+
+/* Header */
+header {
+background-color: #003366; /* Albastru mai închis */
+padding: 20px;
+text-align: center;
+}
+
+header .logo img {
+width: 150px; /* Poți ajusta dimensiunea logo-ului */
+margin-bottom: 10px;
+}
+
+header h1 {
+font-size: 36px;
+margin: 0;
+}
+
+/* Secțiune principală */
+.content {
+padding: 40px;
+text-align: center;
+}
+
+.content h2 {
+font-size: 30px;
+}
+
+.content p {
+font-size: 18px;
+}
+
+/* Footer */
+footer {
+background-color: #003366;
+padding: 10px;
+text-align: center;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
